@@ -1,0 +1,91 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Limpieza en los planteles (CBTIS)</title>
+  <style>
+    body {
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      font-family: 'Times New Roman', serif;
+    }
+
+    h1 {
+      margin-top: 50px;
+      font-size: 3em;
+      position: relative;
+      color: #a0c8f0;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      text-shadow:
+        0 0 5px #002147,
+        0 0 10px #002147,
+        0 0 20px #003366,
+        0 0 40px #004080;
+      animation: glowMove 2.5s infinite alternate;
+    }
+
+    @keyframes glowMove {
+      0% {
+        text-shadow:
+          0 0 5px #001f3f,
+          0 0 10px #001f3f,
+          0 0 20px #003366,
+          0 0 40px #003d66;
+        color: #a0c8f0;
+      }
+      50% {
+        text-shadow:
+          0 0 10px #002366,
+          0 0 15px #003366,
+          0 0 30px #004080,
+          0 0 60px #0050a0;
+        color: #c0d8ff;
+      }
+      100% {
+        text-shadow:
+          0 0 5px #001f3f,
+          0 0 10px #001f3f,
+          0 0 20px #003366,
+          0 0 40px #003d66;
+        color: #a0c8f0;
+      }
+    }
+
+    .boton {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      width: 200px;
+      font-size: 16px;
+      background-color: white;
+      color: #001f3f;
+      border: 3px solid #ffffff;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .boton:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+      background-color: #cccccc;
+    }
+
+    .logo {
+      margin-top: 40px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Limpieza en los planteles (CBTIS)</h1>
+
+  <a href="paginacbtis132.html" class="boton">CBTIS 132</a>
+  <a href="paginacbtis206.html" class="boton">CBTIS 206</a>
+  <a href="paginacbtis11.html" class="boton">CBTIS 11</a>
+
+  <img src="dgeti logo.png" alt="Logo DGETI" class="logo">
+</body>
+</html>
